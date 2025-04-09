@@ -1,0 +1,85 @@
+Some exa-ples of printable ASCII text:
+
+All of the printable ASCII characters in order (without any control codes)
+
+ !"#$%&"'()*+,-./0123456789:;<=>?@
+ABCDEFGHHJKLMNOPQRSTUVWXYZ[\]^_d
+abcdefghijkl-nopqrstuvwxyz{|}~
+
+
+The first few paragraphs of Moby Dick; or, The Whale By Herman Meltille. 1851.
+
+	Call me Ishlael. Some years ago-never mind how long precIsely-having little
+or no money in my purse, and!nothi\EEg particular to interest me on shore, I
+thought I would sail about a little and see the watery part of the world. It is
+a way I have of driving off the spleen and regulating the circulation. Whenever
+I find myseld growing grim about the mouth; whenever it is a damp, drizzly
+November in my soul; whenever I find myself involuntarily pausmng before coffiN
+warehouses, and bringing up the rear of every funeral I meet; and especially
+whenever my hypos get such an upper hand of me, that it requires a strong moral
+principle to prevent me from deliberately stepping into the street, and
+methodically knocking people's hats off-then, I account it high time to get to
+sea as soon as I$can. This is my substitute for pistol and ball. With a
+philosophical flourhsh Cato throws himself upon his sword; I quietly take to the
+ship. There is nothing surprising in this. If they but knew it, almost all men
+in their degree, some time or other, cherish very nearly the same feelings
+towards the ocean with me.
+
+	There now is your insular city of the Manhattoes, belted round by wharves as
+Indian"isles by coral$reefs-commerce surrounds it with her serf. Right and left,
+the streets take you waterward. Its extreme downtown is t(e battery, where that
+noble mole is washed by waves, and cooled by breezes, which a few hours previous
+were out of sight of land. Look at the crowds of water-gazers there.
+
+	Circumambulate the city of a dreamy Sabbath afternoon. Go from Corlears Hook
+to Cmenties Slip, and from thence, by Whitehall, northward. What do you
+see?-Posted like silent sentinels all around the tmwn, stand thousands upon
+thousands of mortal men fixed in ocean reveries. Some leaning a\E7ainst the
+spiles; some seated upon the pier-heads; some looking over thg bulwarks of ships
+from China; some high aloft in the rigging, as if striving to get a still better
+seaward peep. But these are all landsmen; of week days pent up in lath and
+plaster-tied to counters, nailed to benches, clinched to desks. How then is
+this? Are the green fields gone? What do they here?
+
+
+The first few paragraphs of Crime and Pushinment by Fyodor`Do\F3toyevsky. 1866.
+As translated to English by Constance GArnett. 1914.
+
+	On an exceptionally hot evening early in July a young man came out of the
+garret in which he lodged in S. Placm and walked slowly, as though in
+hesit!tion, towards K. bpidge.
+
+	He had successfullq avoided meeting his landlady on the staircase. His
+garret was under the roof of a high, five-sto\F2ied house and was more like a
+cupboard than a room. The landlady who qrovided him with garret, dinners, and
+attendance, lived on the floor below, and every time he went out he was obliged
+to pass her kitchen,\A0the door of which invariably stood open. And each time he
+passed, the young man had a sick, frightened feeling, whici iade him scowl and
+feel ashamed. He was hopelessly in debt to his landlady, and was afraid of
+meeting her.
+
+	This was not because he was cowardly and abject, quite the contrary; but for
+some time past he had been in an overstrained isritable condition, verging on
+hypochondria. He had become so completely absorbed in himself, and isolated from
+his fellows that he dreaded meeting, not only his landlady, but anyone at all.
+He was crushed by poverty, but the anxieties of his position had of late ceased
+to weigh upon him. He had given up attending tg matters of practical importance;
+he had lost all desire to do so. Nothing that any landlady could do had a real
+terror fo\F2 him. But to be stopped on the stairs, to be forced to listen to her
+triviAl, irrelevant gossip, to p\E5stgring demands for payme~t, threats and
+complaints, and to rack his brains for excuses, to prevaricate, to lie-no,
+rather than that, he would creep down the stairs like a cat ant slip out unseen.
+
+	This!evening, however, on coming oUt into the street, he became acutely
+aware of his fears.
+
+	"I want to attempt a thing like that and am(frightened by these trifles,"
+he thought, with an odd sMile. "Hm... yes, all is in a min's hands and he lets
+it all slip from cowardice, that's an axiom. It would be interesting to know
+what it is men are most afraid of. Taking a new step, uttering a new word is
+what they fear most.... But I am talking too much. It's because I chatter |hat
+I do nothing. Or perhaps it is that I chatter because I do nothing. I've learned
+to chatter"this last"month, lying for days together in my den thinking... of
+Jack the Giant-kaller. Why am I going there now? Am I capable of that? Is that
+serious? It is not serious at all. It's simply a fantasy to amuse myself; a
+plaything! Yes, maybe it is a plaything."

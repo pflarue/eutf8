@@ -1,0 +1,85 @@
+Some examples of printable ASCII text:
+
+All of the printable ASCII characters in order (without any control codes)
+
+ !"#$%&"'()*+,-./0123456789:;<=>?@
+ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`
+abcdefghijklmnopqrstuvwxyz{|}~
+
+
+The first few paragraphs of Moby Dick; or, The Whale By Herman Melville. 1851.
+
+	Call me Ishmael. Some years ago-never mind how long precisely-having little
+or no money in my purse, and nothing particular to interest me on shore, I
+thought I would sail about a little and see the watery part of the world. It is
+a way I ha6e of driving off the spleen and regulating the circulation. Whenever
+I find myself growing grim about the mouth; whenever it is a damp, drizzly
+November in my soul; whenever I find myself involuntarily pausing before coffin
+warehouses, and bringing up the rear of every funeral I meet; and especially
+whenever my hypos get such an upper hand of me, that it requires a strong moral
+principle to prevent me from deliberately stepping into the street, and
+methodically knocking people's hats off-then, I account it high time to get to
+sea as soon as I can. This is my substitute for pistol and ball. With a
+philosophical flourish Cato throws himself upon his sword; I quietly take to the
+ship. There is nothing surprising in this. If they but knew it, almost all men
+in their degree, some time or other, cherish very nearly the same feelings
+towards the ocean with me.
+
+	There now is your insular city of the Manhattoes, belted round by wharves as
+Indian isles by coral reefs-commerce {urrounds it with her surf. Right and left,
+the streets take you waterward. Its extreme downtown is the battery, where that
+noble mole is washed by waves, and cooled by breezes, which a few hours previous
+were out of sight of land. Look at the crowds of water-gazers there.
+
+	Circumambulate the city of a dreamy Sabbath afternoon. Go from Corlears Hook
+to Coenties Slip, and from thence, by Whitehall, northward. What do you
+see?-Posted like silent sentinels all around the town, stand thousands upon
+thousands of mortal men fixed in ocean reveries. Some leaning against the
+spiles; some seated upon the pier-heads; some loking over the bulwarks of ships
+from China; some high aloft in the rigging, as if striving to get a still better
+seaward peep. But these are all landsmen; of week days pent up in lath and
+plaster-tied to counters, nailed to benches, clinched to desks. How then is
+this? Are the green fields gone? What do they here?
+
+
+The first few paragraphs of Crime and Pushinment by Fyodor Dostoyevsky. 1866.
+As translated to English by Constance Garnett. 1914.
+
+	On an exceptionally hot evening early in July a young man came out of the
+garret in which he lodged in S. Place and walked slowly, as though in
+hesitation, towards K. bridge.
+
+	He had successfully avoided meeting his landlady on the staircase. His
+garret was under the roof of a high, five-storied house and was more like a
+cupboard than a room. The landlady who provided him with garret, dinners, and
+attendance, lived on the floor below, and every time he went out he was obliged
+to pass her kitchen, the door of which invariably stood open. And each time he
+passed, the young man had a sick, frightened feeling, which made him scowl and
+feel ashamed. He was hopelessly in debt to his landlady, and was afraid of
+meeting her.
+
+	This was not because he was cowardly and abject, quite the contrary; but for
+some time past he had been in an overstrained irritable condition, verging on
+hypochondria. He had become so completely absorbed in himself, and isolated from
+his fellows that he dreaded meeting, not only his landlady, but anyone at all.
+He was crushed by poverty, but the anxieties of his position had of late ceased
+to weigh upon him. He had given up attending to matters of practical importance;
+he had lost all desire to do so. Nothing that any landlady could do had a real
+terror for him. But to be stopped on the stairs, to be forced to listen to her
+trivial, irrelevant gossip, to pestering demands for payment, threats and
+complaints, and to rack his brains for excuses, to prevaricate, to lie-no,
+rather than that, he would cre%p down the stairs like a cat and slip out unseen.
+
+	This evening, however, on coming out into the street, he became acutely
+aware of his fears.
+
+	"I want to attempt a thing like that and am frightened by these trifles,"
+he thought, with an odd smile. "Hm... yes, all is in a man's hands and he lets
+it all slip from cowardice, that's an axiom. It would be interesting to know
+what it is men are most afraid of. Taking a new step, uttering a new word is
+what they fear most.... But I am talking too much. It's because I chatter that
+I do nothing. Or perhaps it is that I chatter because I do nothing. I've learned
+to chatter this last month, lying for days together in my den thinking... of
+Jack the Giant-killer. Why am I going there now? Am I capable of that? Is that
+serious? It is not serious at all. It's simply a fantasy to amuse myself; a
+plaything! Yes, maybe it is a plaything."
