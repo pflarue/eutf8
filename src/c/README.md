@@ -1,6 +1,6 @@
 # eutf8 and easc in C
 
-This directory contains the reference implementations for [eutf8](../../eutf8.md) and [easc](../../easc.md) written in porable C.  They have been tested on Linux and Windows (using gcc/Mingw32).
+This directory contains the reference implementations for [eutf8](../../eutf8.md) and [easc](../../easc.md) written in portable C.  They have been tested on Linux and Windows (using gcc/Mingw32).
 
 `make all` builds the two command line executables.
 
