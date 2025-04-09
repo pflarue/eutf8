@@ -1,2 +1,9 @@
-# eutf8
-eutf8 (escaped UTF-8) and easc (escaped ASCII) encoding
+# eutf8 (escaped UTF-8) and easc (escaped ASCII) encoding
+
+This repository contains descriptions and implementations of two methods of encoding byte data that may contain a mix of text and non-printable bytes.  The initial motivation for these is to log/display text data received over a radio link before error correction has been applied, or when error correction routines fail.  However, it has also proven useful to log/display received data that may intentionally include an unknown mix of non-text formatting/protocol bytes, text, and/or byte sequences resulting from data compression.  Other people may find them useful for other uses.
+
+[*eutf8 (escaped UTF-8)*](eutf8.md) is designed for the general case, where the data may include UTF-8 encoded text.  [*easc (escaped ASCII)*](easc.md) is designed for the simpler case, where data may include printable ASCII text.  In both cases, any data that is not valid text is replaced with 3-byte escape codes of the form `\HH`.  Here `HH` are two upper case hex digits (0-9, A-F).  Additional minor changes to valid text are applied to ensure that conversion between arbitrary byte data and these encodings is unambiguously reversible.
+
+Freely usable reference implementations are provided in portable C, Python, and Javascript with no external dependencies.  These are available with a maximally permissive Zero-Clause BSD [license](LICENSE.md) so that they can easily be used in any other program.  This license allows you to do most anything you want with this code, including use in proprietary software, I hope that varients and enhanced versions will be similarly licensed.
+
+The reference implementations are expected to be mostly useful as functions to include in other software.  However, usable command line programs are also available based on the Python and C implementations.  All three of the implementations include test suites.  These same tests can be adapted to validate any additional implementations.  The reference implementations are written for clarity, rather than for performance.  So, more efficient implementations are probably possible.
