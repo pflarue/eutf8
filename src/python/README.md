@@ -1,7 +1,6 @@
 # eutf8 and easc in Python
 
 This directory contains the reference implementations for [eutf8](../../eutf8.md) and [easc](../../easc.md) written in Python.  They have no dependencies outside the standard library.  They have been tested on Linux and Windows.
-easc.py  easc_test.py  eutf8.py  eutf8_test.py
 
 `eutf8.py` contains the `to_euft8()` and `from_eutf8()` functions.
 
