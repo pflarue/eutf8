@@ -1,0 +1,237 @@
+Table 3-6. UTF-8 Bit Distribution
+Sclalar Value               First Byte  Second Byte  Third Byte  Fourth Byte
+00000000 0xxxxxxx           0xxxxxxx
+00000yyy yyxxxxxx           110yyyyy    10xxxxxx
+zzzzyyyy yyxxxxxx           1110zzzz    10yyyyyy     10xxxxxx
+000uuuuu zzzzyyyy yyxxxxxx  11110uuu    10uuzzzz     10yyyyyy    10xxxxxx
+
+Table 3-7. Well-Formed UTF-8 Byte Sequences
+U+ Code Points  First Byte  Second Byte  Third Byte  Fourth Byte
+0000-007F       00-7F
+0080-07FF       C2-DF       80-BF
+0800-0FFF       E0          A0-BF        80-BF
+1000-CFFF       E1-EC       80-BF        80-BF
+D000-D7FF       ED          80-9F        80-BF
+E000-FFFF       EE-EF       80-BF        80-BF
+10000-3FFFF     F0          90-BF        80-BF       80-BF
+40000-FFFFF     F1-F3       80-BF        80-BF       80-BF
+100000-10FFFF   F4          80-8F        80-BF       80-BF
+
+Private-use Characters:
+(Bits shown in parenthesis are fixed format bits per Table 3-6)
+U+ Code Points  First Byte  Second Byte  Third Byte  Fourth Byte
+E000-F8FF       EE-EF       80-A3        80-BF
+U+     1110 0000  0000 0000 - 1111 1000  1111 1111
+UTF-8  (1110) 1110  (10)00 0000  (10)00 0000 - (1110) 1111  (10)10 0011  (10)11 1111
+UTF-8  E      E     8      0     8      0    - E      F     A      3     B      F
+
+F0000-FFFFD     F3          B0-BF        80-BF       80-BD
+U+     0000 1111  0000 0000  0000 0000 - 0000 1111  1111 1111  1111 1101
+UTF-8  (1111 0)011  (10)11 0000  (10)00 0000  (10)00 0000 - (1111 0)011  (10)11 1111  (10)11 1111  (10)11 1101
+UTF-8  F     3      B      0     8      0     8      0    - F     3      B      F     B      F     B      D
+
+100000-10FFFD   F4          80-8F        80-BF       80-BD
+U+     0001 0000  0000 0000  0000 0000 - 0001 0000  1111 1111  1111 1101
+UTF-8  (1111 0)100  (10)00 0000  (10)00 0000  (10)00 0000 - (1111 0)100  (10)00 1111  (10)11 1111  (10)11 1101
+UTF-8  F     4      8      0     8      0     8      0    - F     4      8      F     B      F     B      D
+
+
+Noncharacters:
+(Bits shown in parenthesis are fixed format bits per Table 3-6)
+U+ Code Points  First Byte  Second Byte  Third Byte  Fourth Byte
+FDD0-FDEF       EF          B7           90-AF
+U+     1111 1101  1101 0000 - 1111 1101  1110 1111
+UTF-8  (1110) 1111  (10)11 0111  (10)01 0000 - (1110) 1111  (10)11 0111  (10)10 1111
+UTF-8  E      F     B      7     9      0    - E      F     B      7     A      F
+
+FFFE            EF          BF           BE
+U+     1111 1111  1111 1110
+UTF-8  (1110) 1111  (10)11 1111  (10)11 1110
+UTF-8  E      F     B      F     B      E
+
+FFFF            EF          BF           BF
+U+     1111 1111  1111 1111
+UTF-8  (1110) 1111  (10)11 1111  (10)11 1111
+UTF-8  E      F     B      F     B      F
+
+1FFFE           F0          9F           BF          BE
+U+     0000 0001 1111 1111  1111 1110
+UTF-8  (1111 0)000  (10)01 1111  (10)11 1111  (10)11 1110
+UTF-8  F     0      9      F     B      F     B      E
+
+1FFFF           F0          9F           BF          BF
+U+     0000 0001 1111 1111  1111 1111
+UTF-8  (1111 0)000  (10)01 1111  (10)11 1111  (10)11 1111
+UTF-8  F     0      9      F     B      F     B      F
+
+2FFFE           F0          AF           BF          BE
+U+     0000 0010 1111 1111  1111 1110
+UTF-8  (1111 0)000  (10)10 1111  (10)11 1111  (10)11 1110
+UTF-8  F     0      A      F     B      F     B      E
+
+2FFFF           F0          AF           BF          BF
+U+     0000 0010 1111 1111  1111 1111
+UTF-8  (1111 0)000  (10)10 1111  (10)11 1111  (10)11 1111
+UTF-8  F     0      A      F     B      F     B      F
+
+3FFFE           F0          BF           BF          BE
+U+     0000 0011 1111 1111  1111 1110
+UTF-8  (1111 0)000  (10)11 1111  (10)11 1111  (10)11 1110
+UTF-8  F     0      B      F     B      F     B      E
+
+3FFFF           F0          BF           BF          BF
+U+     0000 0011 1111 1111  1111 1111
+UTF-8  (1111 0)000  (10)11 1111  (10)11 1111  (10)11 1111
+UTF-8  F     0      B      F     B      F     B      F
+
+4FFFE           F1          8F           BF          BE
+U+     0000 0100 1111 1111  1111 1110
+UTF-8  (1111 0)001  (10)00 1111  (10)11 1111  (10)11 1110
+UTF-8  F     1      8      F     B      F     B      E
+
+4FFFF           F1          8F           BF          BF
+U+     0000 0100 1111 1111  1111 1111
+UTF-8  (1111 0)001  (10)00 1111  (10)11 1111  (10)11 1111
+UTF-8  F     1      8      F     B      F     B      F
+
+5FFFE           F1          9F           BF          BE
+U+     0000 0101 1111 1111  1111 1110
+UTF-8  (1111 0)001  (10)01 1111  (10)11 1111  (10)11 1110
+UTF-8  F     1      9      F     B      F     B      E
+
+5FFFF           F1          9F           BF          BF
+U+     0000 0101 1111 1111  1111 1111
+UTF-8  (1111 0)001  (10)01 1111  (10)11 1111  (10)11 1111
+UTF-8  F     1      9      F     B      F     B      F
+
+6FFFE           F1          AF           BF          BE
+U+     0000 0110 1111 1111  1111 1110
+UTF-8  (1111 0)001  (10)10 1111  (10)11 1111  (10)11 1110
+UTF-8  F     1      A      F     B      F     B      E
+
+6FFFF           F1          AF           BF          BF
+U+     0000 0110 1111 1111  1111 1111
+UTF-8  (1111 0)001  (10)10 1111  (10)11 1111  (10)11 1111
+UTF-8  F     1      A      F     B      F     B      F
+
+7FFFE           F1          BF           BF          BE
+U+     0000 0111 1111 1111  1111 1110
+UTF-8  (1111 0)001  (10)11 1111  (10)11 1111  (10)11 1110
+UTF-8  F     1      B      F     B      F     B      E
+
+7FFFF           F1          BF           BF          BF
+U+     0000 0111 1111 1111  1111 1111
+UTF-8  (1111 0)001  (10)11 1111  (10)11 1111  (10)11 1111
+UTF-8  F     1      B      F     B      F     B      F
+
+8FFFE           F2          8F           BF          BE
+U+     0000 1000 1111 1111  1111 1110
+UTF-8  (1111 0)010  (10)00 1111  (10)11 1111  (10)11 1110
+UTF-8  F     2      8      F     B      F     B      E
+
+8FFFF           F2          8F           BF          BF
+U+     0000 1000 1111 1111  1111 1111
+UTF-8  (1111 0)010  (10)00 1111  (10)11 1111  (10)11 1111
+UTF-8  F     2      8      F     B      F     B      F
+
+9FFFE           F2          9F           BF          BE
+U+     0000 1001 1111 1111  1111 1110
+UTF-8  (1111 0)010  (10)01 1111  (10)11 1111  (10)11 1110
+UTF-8  F     2      9      F     B      F     B      E
+
+9FFFF           F2          9F           BF          BF
+U+     0000 1001 1111 1111  1111 1111
+UTF-8  (1111 0)010  (10)01 1111  (10)11 1111  (10)11 1111
+UTF-8  F     2      9      F     B      F     B      F
+
+AFFFE           F2          AF           BF          BE
+U+     0000 1010 1111 1111  1111 1110
+UTF-8  (1111 0)010  (10)10 1111  (10)11 1111  (10)11 1110
+UTF-8  F     2      A      F     B      F     B      E
+
+AFFFF           F2          AF           BF          BF
+U+     0000 1010 1111 1111  1111 1111
+UTF-8  (1111 0)010  (10)10 1111  (10)11 1111  (10)11 1111
+UTF-8  F     2      A      F     B      F     B      F
+
+BFFFE           F2          BF           BF          BE
+U+     0000 1011 1111 1111  1111 1110
+UTF-8  (1111 0)010  (10)11 1111  (10)11 1111  (10)11 1110
+UTF-8  F     2      B      F     B      F     B      E
+
+BFFFF           F2          BF           BF          BF
+U+     0000 1011 1111 1111  1111 1111
+UTF-8  (1111 0)010  (10)11 1111  (10)11 1111  (10)11 1111
+UTF-8  F     2      B      F     B      F     B      F
+
+CFFFE           F3          8F           BF          BE
+U+     0000 1100 1111 1111  1111 1110
+UTF-8  (1111 0)011  (10)00 1111  (10)11 1111  (10)11 1110
+UTF-8  F     3      8      F     B      F     B      E
+
+CFFFF           F3          8F           BF          BF
+U+     0000 1100 1111 1111  1111 1111
+UTF-8  (1111 0)011  (10)00 1111  (10)11 1111  (10)11 1111
+UTF-8  F     3      8      F     B      F     B      F
+
+DFFFE           F3          9F           BF          BE
+U+     0000 1101 1111 1111  1111 1110
+UTF-8  (1111 0)011  (10)01 1111  (10)11 1111  (10)11 1110
+UTF-8  F     3      9      F     B      F     B      E
+
+DFFFF           F3          9F           BF          BF
+U+     0000 1101 1111 1111  1111 1111
+UTF-8  (1111 0)011  (10)01 1111  (10)11 1111  (10)11 1111
+UTF-8  F     3      9      F     B      F     B      F
+
+EFFFE           F3          AF           BF          BE
+U+     0000 1110 1111 1111  1111 1110
+UTF-8  (1111 0)011  (10)10 1111  (10)11 1111  (10)11 1110
+UTF-8  F     3      A      F     B      F     B      E
+
+EFFFF           F3          AF           BF          BF
+U+     0000 1110 1111 1111  1111 1111
+UTF-8  (1111 0)011  (10)10 1111  (10)11 1111  (10)11 1111
+UTF-8  F     3      A      F     B      F     B      F
+
+FFFFE           F3          BF           BF          BE
+U+     0000 1111 1111 1111  1111 1110
+UTF-8  (1111 0)011  (10)11 1111  (10)11 1111  (10)11 1110
+UTF-8  F     3      B      F     B      F     B      E
+
+FFFFF           F3          BF           BF          BF
+U+     0000 1111 1111 1111  1111 1111
+UTF-8  (1111 0)011  (10)11 1111  (10)11 1111  (10)11 1111
+UTF-8  F     3      B      F     B      F     B      F
+
+10FFFE           F4          8F           BF          BE
+U+     0001 0000 1111 1111  1111 1110
+UTF-8  (1111 0)100  (10)00 1111  (10)11 1111  (10)11 1110
+UTF-8  F     4      8      F     B      F     B      E
+
+10FFFF           F4          8F           BF          BF
+U+     0001 0000 1111 1111  1111 1111
+UTF-8  (1111 0)100  (10)00 1111  (10)11 1111  (10)11 1111
+UTF-8  F     4      8      F     B      F     B      F
+
+
+C0 Control codes.  These are valid ASCII and valid UTF-8, but for this
+application they are escaped.  However, the horizontal tab (\t 0x09) and line
+feed (\n \x0A) characters may at the users discretion be left unescaped so that
+text formatted with these two characters will be printed/displayed as intended.
+
+U+ Code Points  First Byte  Second Byte  Third Byte  Fourth Byte
+0000-001F       00-1F
+U+     0000 0000 - 0001 1111
+UTF-8  0000 0000 - 0001 1111
+UTF-8  0    0      1    F
+
+
+C1 Control codes.  These are valid UTF-8, but for this application they are
+escaped.
+
+U+ Code Points  First Byte  Second Byte  Third Byte  Fourth Byte
+0080-009F       C2          80-9F
+U+     1000 0000 - 1001 1111
+UTF-8  (110)0 0010  (10)00 0000 - (110)0 0010  (10)01 1111
+UTF-8  C      2     8      0      C      2     9      F
