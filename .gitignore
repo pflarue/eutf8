@@ -1,0 +1,12 @@
+# Executables
+eutf8
+eutf8.exe
+easc
+easc.exe
+eutf8_test
+eutf8_test.exe
+easc_test
+easc_test.exe
+
+# Python cache
+__pycache__
